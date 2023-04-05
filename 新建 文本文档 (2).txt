@@ -1,0 +1,396 @@
+// // 将设置放入此文件中以覆盖默认设置
+{
+  "[cpp]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.validate.enable": true,
+  "editor.mouseWheelZoom": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "window.openFilesInNewWindow": "on",
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.html": "html",
+    "*.txt": "plaintext"
+  },
+  "files.eol": "\r\n",
+  "workbench.editor.enablePreview": false, //关闭rg.exe进程
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //让函数(名)和后面的括号之间加个空格
+  "vetur.format.defaultFormatter.html": "js-beautify-html", //格式化.vue中html
+  "vetur.format.defaultFormatter.js": "vscode-typescript", //让vue中的js按编辑器自带的ts格式进行格式化
+  "vetur.format.defaultFormatter.ts": "vscode-typescript", //让vue中的js按编辑器自带的ts格式进行格式化
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto" //属性强制折行对齐
+    }
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // "editor.fontWeight": "560",
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.detectIndentation": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.hover.delay": 1000,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.smoothScrolling": true,
+  "editor.tabCompletion": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 2,
+  "editor.formatOnPaste": true,
+  "editor.minimap.maxColumn": 100,
+  "files.trimFinalNewlines": true,
+  "workbench.enableExperiments": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolSortOrder": "name",
+  "explorer.openEditors.visible": 30,
+  "search.showLineNumbers": true,
+  "search.smartCase": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableBell": false,
+  "auto-close-tag.fullMode": true,
+  "auto-close-tag.SublimeText3Mode": true,
+  "editor.foldingStrategy": "indentation",
+  "stylusSupremacy.insertColons": true, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": true, // 是否插入分好
+  "stylusSupremacy.insertBraces": true, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+  "workbench.colorCustomizations": {
+    // "terminal.foreground": "#FFFFFF",
+    // "terminal.background": "#FFFFFF",
+    // 终端样式
+    // "debugConsole.warningForeground": "#f7f501",
+    // "debugConsole.errorForeground": "#f7f501",
+    // "debugConsole.sourceForeground": "#f7f501",
+    // "debugConsole.infoForeground": "#e2ebdb",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+  },
+  "[stylus]": {
+    "editor.defaultFormatter": "thisismanta.stylus-supremacy"
+  },
+  "javascript.suggest.completeJSDocs": true,
+  "javascript.suggest.autoImports": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.mouseWheelScrollSensitivity": 5,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "search.followSymlinks": false,
+  "git.autorefresh": false,
+  "gitlens.advanced.messages": {
+    "suppressGitDisabledWarning": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+  },
+  "workbench.preferredDarkColorTheme": "Default Light+",
+  "[vue-html]": {
+    "editor.defaultFormatter": "ryannaddy.vscode-format"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/api",
+    "proxyUri": "http://localhost:3001"
+  },
+  "indenticator.languageSpecific": {
+    "[json, jsonc]": {
+      "indenticator.showHover": true,
+      "indenticator.hover.peekBack": 1
+    }
+  },
+  "indenticator.inner.hover.peekForward": 4,
+  "workbench.editorAssociations": {
+    "*.png": "hediet.vscode-drawio"
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "-",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.multiRootWorkspaceName": "192.168.0.101",
+  "better-comments.highlightPlainText": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "cSpell.userWords": [
+    "ADDBARRAGEDATA",
+    "alipay",
+    "analy",
+    "ancs",
+    "anney",
+    "antd",
+    "autoplay",
+    "bannerlist",
+    "basepage",
+    "bbin",
+    "bottomnavigationbar",
+    "btns",
+    "cancle",
+    "catetory",
+    "CATID",
+    "Chuan",
+    "CLOSETARGETPAGE",
+    "cupertino",
+    "Datas",
+    "DDTHH",
+    "DEFAULTSTOKEN",
+    "Dtos",
+    "duyi",
+    "easyloading",
+    "Echart",
+    "Eletric",
+    "EQUIPMENTID",
+    "esports",
+    "fanbodan",
+    "FBSP",
+    "fijkplayer",
+    "Fluttertoast",
+    "Forword",
+    "fullscreen",
+    "gameleft",
+    "GAMESTATE",
+    "GENERATEERRORTEXT",
+    "GLOBALSTATE",
+    "GOTARGETPAGE",
+    "HOMEAPI",
+    "hpid",
+    "IGGF",
+    "IGSS",
+    "Ionfo",
+    "isactive",
+    "isleft",
+    "leftbg",
+    "Lisener",
+    "litems",
+    "liveapp",
+    "localstorage",
+    "loglevel",
+    "LTRB",
+    "luffy",
+    "MAINSTATE",
+    "Matchscole",
+    "memoizer",
+    "micsecond",
+    "mpegurl",
+    "Nodata",
+    "nomal",
+    "obcp",
+    "OBLI",
+    "OBSP",
+    "onlive",
+    "OPENFLOATING",
+    "passcode",
+    "perate",
+    "persistor",
+    "Pinia",
+    "playerdetail",
+    "playsinline",
+    "PLSP",
+    "popver",
+    "profileico",
+    "Pwdis",
+    "qrcode",
+    "qualit",
+    "Qualiy",
+    "redenvelopeopencountdown",
+    "RELOADAUDIENCELENGTH",
+    "reques",
+    "reseve",
+    "Resva",
+    "RGBO",
+    "sabong",
+    "Sche",
+    "scos",
+    "screenutil",
+    "sdyactivity",
+    "Seletmodel",
+    "SENDCHATMESSAGE",
+    "SHOWCHATSLIDER",
+    "shwo",
+    "Sider",
+    "signout",
+    "Silder",
+    "splive",
+    "sptvstoken",
+    "SPTVTOKEN",
+    "STOKEN",
+    "swiper",
+    "tencent",
+    "timuikit",
+    "tnjc",
+    "transction",
+    "Trtc",
+    "uikit",
+    "umijs",
+    "unkonw",
+    "unplugin",
+    "USERSTATE",
+    "utlis",
+    "validbet",
+    "vant",
+    "Vedio",
+    "vids",
+    "vipinfo",
+    "VITE",
+    "vnode",
+    "vsync",
+    "vuelidate",
+    "vueuse",
+    "vuex",
+    "wakelock",
+    "Wechat",
+    "weinisi",
+    "youhui"
+  ],
+  "px2vw.toFixedNum": 2,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  // "js/ts.implicitProjectConfig.checkJs": true,
+  // "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "dart.enableCompletionCommitCharacters": true,
+  "dart.flutterHotRestartOnSave": true,
+  "dart.lineLength": 120,
+  "dart.previewFlutterUiGuides": true,
+  "dart.triggerSignatureHelpAutomatically": true,
+  "liveServer.settings.host": "192.168.0.101",
+  "dart.debugExternalPackageLibraries": true,
+  "workbench.tree.indent": 10,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.autoLockGroups": {},
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "dart.warnWhenEditingFilesInPubCache": false,
+  "files.autoSave": "onFocusChange",
+  "git.ignoreMissingGitWarning": true,
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "dart.warnWhenEditingFilesOutsideWorkspace": false,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "varTranslation.baiduSecret": "20221013001391084,Edqf6t5voX9RsSILMVcE",
+  "varTranslation.translationEngine": "baidu",
+  "prettier": {
+    "bracketSameLine": true,
+    "printWidth": 120,
+    "arrowParens": "avoid",
+    "singleQuote": true,
+  },
+  "explorer.confirmDragAndDrop": false
+}
